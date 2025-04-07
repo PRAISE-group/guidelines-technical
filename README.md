@@ -38,7 +38,8 @@ This is a general guideline, you may use a different structure but why?
 - No double captioning.
 - Check your minted code for syntax errors, semantic errors.
   - Use `escapeinside` for labels and latex
-- Break up your long texts or paragraphs into subsections or subsubsections if required. 
+- Break up your long texts or paragraphs into subsections or subsubsections if required.
+- Highlight important points with `\itemize` or `\descriptions`. Long paragraphs and lines must be avoided.  
 
 ## Citations
 
