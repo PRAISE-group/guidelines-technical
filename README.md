@@ -33,7 +33,8 @@ This is a general guideline, you may use a different structure but why?
 - Do not paste first two paragraphs of Introduction in the abstract section of the submission site.
 - Check for `??` and `???` in the paper.
 - Check if your references are referred and cited at the right place correctly. 
-- Keep code and figures close the place where you explain or refer it.
+- Keep code and figures close the place where you explain or refer it. Figure on page 1 and first reference or explanation on page 3 must be avoided.
+- Keep tables and figures with setting top. Eg. `\begin{figure}[t]` or `\begin{table}[t]`. 
 - Do not caption subfigure of subfigure.
 - No double captioning.
 - Check your minted code for syntax errors, semantic errors.
