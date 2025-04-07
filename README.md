@@ -48,6 +48,7 @@ This is a general guideline, you may use a different structure but why?
 
 - author_name:year_of_publish. Eg: kalita:2022, prantik:2020.
 - Remove abstract, keywords.
+- In ACM based style papers, you can use `\cite{kalita:2022, prantik:2020}` but in `IEEE` or `LNCS` papers you need to use `\cite{kalita:2022,prantik:2020}`. Mind the space (Thanks to Pankaj). 
 
 ## Labels
 
