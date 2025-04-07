@@ -7,7 +7,8 @@ Get the algorithm section and experiments sections completed atleast 15 days bef
 This is a general guideline, you may use a different structure but why?
 
 - `paper.tex`. You main paper tex file for the paper.
-- `xxxx.sty` or `xxxx.cls` file that describes the style of the paper.
+- `xxxx.sty` or `xxxx.cls` file that describes the style of the paper. Each conference/journal has a specific type
+- `xxxx.bst` or `xxxx.bs` file for the bibtex-styling. Each conference/journal has a specific type.
 - `refs.bib` for all citations.
 - `sections` folder for all the parts of the paper. Add them to the main paper with `\input{}`. A paper usually has these sections. 
     -   `introduction.tex` -- Why is this paper interesting? What problem does it solve? Why solving this problem is interesting? 
