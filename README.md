@@ -13,7 +13,7 @@ This is a general guideline, you may use a different structure but why?
     -   `algorithm.tex` -- Formally explain the algorithm, typeset it in the paper with `algorithm` package. Explain line by line how it works.
     -   `implementation.tex` -- Engineering overview, implementation details, optimizations that you might have performed. Architecture diagram. Modularity, component cohesion, dependency injection etc.
     -   `experiments.tex` -- This is important for acceptance, write your RQs, Compare with SOTA tools, etc.
-    -   `related.tex` -- Elaborate comparision with existing works and research. 
+    -   `related.tex` -- Elaborate comparision with existing works and research. Break it up into subsections, say why their approach fails, or are not able to address the problem, how is your work better. Learn from them past, but be bold saying that these works do not solve the problem. 
     -   `conclusion.tex` -- Final Conclusion.
     -   `appendix.tex` -- All extra information needed to understand the paper but you cannot put in the paper for page restrictions. Must write properly because people do read it for more insights about your paper.
 
