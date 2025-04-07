@@ -18,7 +18,7 @@
 ## Paper Guidelines
 
 - Maintain a single folder (root), GitHub repository for the paper. Avoid Overleaf.
-- Pull changes before making a change, push you changes frequently. Avoid `git conflicts` and never do `git rebase`.
+- Pull changes before making a change, push you changes frequently. Avoid `git conflicts` and never do `git rebase`. Merge with `ort` strategy. 
 - Grammar Checks. Spelling Checks.
 - No hard-coded references, all `\ref{}` better, `\Cref{}`
 - Figures, code etc caption below, tables caption top.
