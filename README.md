@@ -34,7 +34,9 @@ This is a general guideline, you may use a different structure but why?
 - Keep code and figures close the place where you explain or refer it.
 - Do not caption subfigure of subfigure.
 - No double captioning.
-- Check your minted code for syntax errors, semantic errors. 
+- Check your minted code for syntax errors, semantic errors.
+  - Use `escapeinside` for labels and latex
+- Break up your long texts or paragraphs into subsections or subsubsections if required. 
 
 ## Citations
 
