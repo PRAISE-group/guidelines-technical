@@ -9,7 +9,7 @@ This is a general guideline, you may use a different structure but why?
 - `refs.bib` for all citations.
 - `sections` folder for all the parts of the paper. Add them to the main paper with `\input{}`. A paper usually has these sections. 
     -   `introduction.tex` -- Why is this paper interesting? What problem does it solve? Why solving this problem is interesting? 
-    -   `overview.tex` -- Explain with a nice example how your approach works. How does is solve the problem stated in the paper? Novelty of the work. Compare with existing drawbacks. 
+    -   `overview.tex` -- Explain with a nice example how your approach works. How does it solve the problem stated in the paper? Novelty of the work. Compare with existing drawbacks. 
     -   `algorithm.tex` -- Formally explain the algorithm, typeset it in the paper with `algorithm` package. Explain line by line how it works.
     -   `implementation.tex` -- Engineering overview, implementation details, optimizations that you might have performed. Architecture diagram. Modularity, component cohesion, dependency injection etc.
     -   `experiments.tex` -- This is important for acceptance, write your RQs, Compare with SOTA tools, etc.
