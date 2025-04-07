@@ -21,7 +21,7 @@ This is a general guideline, you may use a different structure but why?
 
 ## Paper Guidelines
 
-- Maintain a single folder (root), GitHub repository for the paper. Avoid Overleaf.
+- Maintain a single folder (root), GitHub repository for the paper. Avoid Overleaf. Use `texstudio` with `language server`. 
 - Pull changes before making a change, push you changes frequently. Avoid `git conflicts` and never do `git rebase`. Merge with `ort` strategy. 
 - Grammar Checks. Spelling Checks.
 - No hard-coded references, all `\ref{}` better, `\Cref{}`
@@ -41,7 +41,8 @@ This is a general guideline, you may use a different structure but why?
 - Break up your long texts or paragraphs into subsections or subsubsections if required.
 - Highlight important points with `\itemize` or `\descriptions`. Long paragraphs and lines must be avoided.
 - Make `\newcommand{}` for notations or formats that you can easily reuse in the paper multiple times.
-- Make `\renewcommand{}` for notations and commands that you want to re-define for your use case. 
+- Make `\renewcommand{}` for notations and commands that you want to re-define for your use case.
+- Use `inkscape` for figures. 
 
 ## Citations
 
