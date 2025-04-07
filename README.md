@@ -32,7 +32,9 @@ This is a general guideline, you may use a different structure but why?
 - Check for `??` and `???` in the paper.
 - Check if your references are referred and cited at the right place correctly. 
 - Keep code and figures close the place where you explain or refer it.
-- Do not caption subfigure of subfigure. 
+- Do not caption subfigure of subfigure.
+- No double captioning.
+- Check your minted code for syntax errors, semantic errors. 
 
 ## Citations
 
