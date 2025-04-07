@@ -20,7 +20,7 @@
 - Maintain a single folder (root), GitHub repository for the paper. Avoid Overleaf.
 - Pull changes before making a change, push you changes frequently. Avoid `git conflicts` and never do `git rebase`.
 - Grammar Checks. Spelling Checks.
-- No hard-coded references, all `ref{}` better, `Cref{}`
+- No hard-coded references, all `\ref{}` better, `\Cref{}`
 - Figures, code etc caption below, tables caption top.
 - Stress with `\textit{}` but do not stress everything, use sparingly.
 - Learn using `\boxed{}`, `\fbox{}` and `\parbox{}`.
@@ -29,4 +29,20 @@
 - Do not paste first two paragraphs of Introduction in the abstract section of the submission site.
 - Check for `??` and `???` in the paper.
 - Check if your references are referred and cited at the right place correctly. 
-- Keep code and figures close the place where you explain or refer it. 
+- Keep code and figures close the place where you explain or refer it.
+- Do not caption subfigure of subfigure. 
+
+## Citations
+
+- author_name:year_of_publish. Eg: kalita:2022, prantik:2020.
+- Remove abstract, keywords.
+
+## Labels
+
+- Tables: `\label{tab:xxxxxx}`
+- Sections: `\label{sec:xxxxxx}`
+- Figures: `\label{fig:xxxxxx}`
+- Code: `\label{code:xxxxxx}`
+- Listings: `\label{list:xxxxxx}`
+- Lines: `\label{code:line:xxxxxx}` or `\label{algo:line:xxxxxx}` as the case may be. 
+- Algorithms: `\label{algo:xxxxxx}` 
