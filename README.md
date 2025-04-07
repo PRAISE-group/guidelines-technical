@@ -1,5 +1,7 @@
 # Writing a paper is a hard task. 
 
+Get the algorithm section and experiments sections completed atleast 15 days before the actual paper submission time. 
+
 ## Paper Repo Structure
 
 This is a general guideline, you may use a different structure but why?
