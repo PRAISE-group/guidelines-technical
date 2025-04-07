@@ -1,6 +1,8 @@
 # Writing a paper is a hard task. 
 
-## Paper Repo
+## Paper Repo Structure
+
+This is a general guideline, you may use a different structure but why?
 
 - `paper.tex`. You main paper tex file for the paper.
 - `xxxx.sty` or `xxxx.cls` file that describes the style of the paper.
