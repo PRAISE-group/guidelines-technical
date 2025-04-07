@@ -39,7 +39,9 @@ This is a general guideline, you may use a different structure but why?
 - Check your minted code for syntax errors, semantic errors.
   - Use `escapeinside` for labels and latex
 - Break up your long texts or paragraphs into subsections or subsubsections if required.
-- Highlight important points with `\itemize` or `\descriptions`. Long paragraphs and lines must be avoided.  
+- Highlight important points with `\itemize` or `\descriptions`. Long paragraphs and lines must be avoided.
+- Make `\newcommand{}` for notations or formats that you can easily reuse in the paper multiple times.
+- Make `\renewcommand{}` for notations and commands that you want to re-define for your use case. 
 
 ## Citations
 
