@@ -4,7 +4,7 @@ Get the algorithm section and experiments sections completed atleast 15 days bef
 
 ## Paper Repo Structure
 
-This is a general guideline, you may use a different structure but why?
+This is a general guideline, you may use a different structure, but why?
 
 - `paper.tex`. You main paper tex file for the paper.
 - `xxxx.sty` or `xxxx.cls` (in `\documentclass[...]{class}`) file that describes the style of the paper. Each conference/journal has a specific type
