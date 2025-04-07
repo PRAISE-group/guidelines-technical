@@ -1,6 +1,6 @@
 # Writing a paper is a hard task. 
 
-Get the algorithm section and experiments sections completed atleast 15 days before the actual paper submission time. 
+Get the algorithm section and experiments sections completed atleast 15 days before the actual paper submission time. Most of these points are applicable to PL or SE papers, but it can be extended to a generalized setting. 
 
 ## Paper Repo Structure
 
