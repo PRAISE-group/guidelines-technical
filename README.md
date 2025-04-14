@@ -44,7 +44,8 @@ This is a general guideline, you may use a different structure, but why?
 - Highlight important points with `\itemize` or `\descriptions`. Long paragraphs and lines must be avoided.
 - Make `\newcommand{}` for notations or formats that you can easily reuse in the paper multiple times.
 - Make `\renewcommand{}` for notations and commands that you want to re-define for your use case.
-- Use `inkscape` for figures. 
+- Use `inkscape` for figures. Make sure figure colors and figure text have a high contrast in them. Save at 1200 dpi.
+- Some interesting macros and important packages have been outlined in `utilities.tex` file. 
 
 ## Citations
 
