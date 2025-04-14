@@ -1,0 +1,76 @@
+% some important packages and interesting macros. 
+% Please add other packages and macros of your interest. 
+
+\internallinenumbers
+\setrunninglinenumbers
+\runninglinenumbers
+
+\usepackage{latexsym}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = violet, %Colour for external hyperlinks
+	linkcolor    = violet, %Colour of internal links
+	citecolor   = violet %Colour of citations
+}
+
+%% Some recommended packages.
+\usepackage{color, colortbl, booktabs}
+\newcolumntype{a}{>{\columncolor{LightCyan}}c}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}  %% For formal tables:
+%% http://ctan.org/pkg/booktabs
+\usepackage{subcaption} %% For complex figures with subfigures/subcaptions
+%% http://ctan.org/pkg/subcaption
+\usepackage{xspace}
+\usepackage{bbold, amsmath, amssymb, comment, babel, pdfpages} % extra packages for CAV'24 by PK
+\usepackage{wrapfig}
+\usepackage{gensymb}
+\usepackage[normalem]{ulem}  % for strikeout texts
+\usepackage{mathpartir}
+\usepackage{todonotes}
+\usepackage{mindflow}
+\mindflowset{
+	leftlinenumber,
+	linecolor = green!50!black,
+	textcolor = blue!50!cyan,
+	numcolor = red!50!orange,
+	markercolor = orange,
+	textfont = \footnotesize\sffamily\itshape,
+	numfont = \small\footnotesize\ttfamily,
+	markerfont = \footnotesize\sffamily,
+	left = \hspace{1em}\(\succ\),
+	right = \(\prec\)\hspace{1em},
+	lineheight = 1pt
+}
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}} % invisible column
+
+\usepackage[linesnumbered,lined,ruled,commentsnumbered]{algorithm2e}
+\usepackage[newfloat]{minted}
+
+% Line numbers not flowing out of the margin
+\setminted{numbersep=3pt, framesep=1pt, autogobble,
+	linenos, xleftmargin=15pt, escapeinside=||, tabsize=2, bgcolor=bg,
+	%frame=lines,
+	 highlightcolor=LightCyan, fontsize=\footnotesize}
+
+%  \usemintedstyle{bw} %black and white style
+\usepackage[capitalise, noabbrev, nameinlink]{cleveref}
+%\crefname{deprv}{deprv}{deprv}
+
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{framed}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+
+
+\renewcommand{\todo}[1]{\textcolor{red}{TODO: #1}}
+\newcommand{\labelline}[1]{\label[line]{#1}\hypertarget{#1}{}}
+\newcommand{\refline}[1]{\hyperlink{#1}{Line~\ref*{#1}}}
+
+% Question and Answer styling for Latex style Rebuttals.
+\newcommand{\ques}[2]{\noindent\textbf{\textcolor{blue}{Q{#1}.}}~\textit{\textcolor{blue}{#2}}}
+\newcommand{\ans}{\noindent\textbf{A.}~}
+\newcommand{\xps}{\vspace{3pt}}
